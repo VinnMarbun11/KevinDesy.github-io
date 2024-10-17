@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>VinnDesy</title>
+    <script src="https://unpkg.com/feather-icons"></script>
     <link rel="stylesheet" href="style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -12,13 +13,17 @@
   <body>
     <nav>
       <div class="logo">
-        <a href="">Teknik <span>Komputer23A.</span></a>
+        <a href="">Vinn <span>Desy.</span></a>
       </div>
       <div class="nav-item">
         <a href="">Home</a>
         <a href="">About</a>
-        <a href="">Our Activities</a>
-        <a href="">Contact</a>
+        <a href="">Our Galery</a>
+      </div>
+      <div class="nav-items">
+        <a class="ig" href=""><i data-feather="instagram"></i></a>
+        <a class="fb" href=""><i data-feather="facebook"></i></a>
+        <a class="menu" id="menu"><i data-feather="menu"></i></a>
       </div>
     </nav>
     <div class="bg">
@@ -29,6 +34,7 @@
       <div class="slide" style="background-image: url(Asset/img/6.jpeg)"></div>
     </div>
     <script>
+      feather.replace();
       activeslideimg();
       function activeslideimg(activeSlide = 2) {
         const slides = document.querySelectorAll(".slide");
