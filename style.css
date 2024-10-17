@@ -109,10 +109,10 @@ a:hover::after {
     align-content: center;
   }
   .slide {
-    width: 65vh;
+    width: 50vh;
     border-radius: 20px;
     margin: 10px;
-    background-position: 0px -180px;
+    background-position: 0px -90px;
   }
 }
 
