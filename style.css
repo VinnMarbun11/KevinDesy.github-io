@@ -85,6 +85,17 @@ a:hover::after {
   z-index: -1;
   position: absolute;
 }
+
+.main-content {
+  color: black;
+}
+.main {
+  height: 100vh;
+  background-color: rgb(29, 28, 28);
+}
+.main-content {
+  padding: 150px;
+}
 .bg {
   cursor: pointer;
   width: 100%;
